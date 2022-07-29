@@ -1,0 +1,115 @@
+p {color:rgb(70, 69, 69);
+text-align: justify;
+margin:20px auto;
+font-family: 'Nunito', sans-serif;
+font-size: 18px;  
+}
+
+h3{
+    margin: 20px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;   
+    color:rgb(70, 69, 69);
+}
+h4{
+    font-family: 'Nunito',  sans-serif;   
+    color:rgb(70, 69, 69);
+}
+div.container{
+    width:760px;
+    min-height: 950px;
+    background-image:linear-gradient(rgb(197, 224, 233),white,rgb(197, 224, 233));
+    margin:0px auto;
+}
+div.topleft{
+        display: inline-block;
+        width: 300px;
+        height: 200px;
+}
+    div.topleft img{
+        margin: 20px;
+        max-width:  250px;
+        height: auto;
+    }
+div.topright{
+    vertical-align: top;
+    display:inline-block;
+    min-height: 200px;
+    width:auto;
+}
+      div.topright h1{
+            width:290px;
+            height:40px;
+            color:darkslategray;
+            font-family: 'Nunito', sans-serif;
+            font-size: 35px;
+    }
+    div.topright h4{
+            width:390px;
+            font-family: 'Nunito', sans-serif;
+            font-size: 18px;
+            padding-bottom: 15  px;
+            border-bottom: 2px solid darkslategray;
+    }
+    div.topright p{
+        width:330px;
+        color:black;
+        font-family: 'Nunito', sans-serif;
+        font-size: 11px;        
+    }   
+div.middle {
+    margin:0 20px 0 20px;
+    padding: .5px 20px .5px 20px;  
+    background-color:rgb(238, 236, 236);
+    min-width: 300px;             
+}  
+div.bottom{
+    display: inline-block;  
+    margin-top: 20px;
+}
+div.bottomleft{
+    display: inline-block;
+    width: 370px;
+}
+    div.bottomleft ul{
+        display: inline-block;
+    }
+    div.bottomleft ul li{
+    display: inline-block;
+    }
+    div.bottomleft ul li img{
+        width:60px;    
+    }
+div.bottomright{
+    padding-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 360px;
+    height:380px;
+    background-image:linear-gradient(lightgray,white,lightgray);
+}
+    div.bottomright p{
+        color:rgb(8, 8, 8);
+        text-align:left;
+        font-family: 'Nunito', sans-serif;
+        font-size: 13px;        
+    }
+div.footer{ 
+    margin-left: 160px;
+    display:inline-block;
+    width:500px;
+}
+    div.footer ul{
+        display:inline-block;
+    }
+    div.footer ul li{
+        display:inline-block;
+    }
+    div.footer ul li img{
+        width:25px;
+    }
+a{
+    padding:5px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 11px;            
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Background Chooser</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $('#main_box').click(function(){
+            $(this).css("background-image","none"); 
+            $(this).children().css("border","none");
+            })
+
+            $('.mini_boxes').click(function(event){   
+            event.stopPropagation(); 
+            var imageurl = $(this).attr('src');
+            $(this).parent().css("background-image","url(" + imageurl + ")");
+            $(this).css("border","2px solid yellow"); 
+            $(this).siblings().css("border","none");         
+            })
+        });
+    </script>
+    <style>
+        #main_box {
+            background-color: lightgray;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 10px;
+        }
+        #main_box img {
+            display: block;
+            width: 200px;
+            height: 100px;
+            margin: 10px 0 15px 10px;
+        }
+        h1 {
+            text-align: center;
+            margin: 30px;
+            font-family: Verdana;
+        }
+    </style>
+</head>
+<body>
+      <h1>Background Chooser</h1>
+      <div id="main_box">
+          <img src="bg1.gif" class="mini_boxes" alt="">
+          <img src="bg2.gif" class="mini_boxes" alt="">
+          <img src="bg3.gif" class="mini_boxes" alt="">
+          <img src="bg4.gif" class="mini_boxes" alt="">
+      </div>
+</body>
+</html>

@@ -1,0 +1,145 @@
+body *{
+    font-family: Arial, Helvetica, sans-serif;    
+}
+p{
+    font-size: 12px;
+}
+
+h1{
+    font-size: 16px;
+    font-weight: bold;
+}
+h2{
+    font-size:14px;   
+}
+h3{
+    font-size:12px;  
+}
+div.container{
+    width:980px;
+    min-height: 550px;
+    background-image: url("background.png");
+    margin: 0px auto;
+}
+div.top{
+    background-color:rgb(86, 125, 241);
+    border-top: 3px solid rgb(48, 82, 182);
+    border-bottom: 3px solid rgb(48, 82, 182);
+}
+div.topleft{
+    display: inline-block;
+    font-size: 12px;
+    width:700px;
+}
+div.topleft{
+    min-height: 50px;
+}
+    div.topleft ul{
+        display: inline-block;
+    }
+    div.topleft ul li{
+        display: inline-block;
+        padding: 0px 10px 0px 10px;
+        vertical-align: middle;
+    }
+    div.topleft ul li img{
+        width:48px;
+    }
+    div.topleft ul li a{
+        text-decoration: none;
+        color:white;
+        font-size: 10px;
+        font-weight: bold;
+    }
+div.topright{
+    display:inline-block;
+}
+
+div.middle{
+    display: inline-block;
+    margin: 0px 0px 0px 20px;
+    width:680px;
+}
+div.middle p a{
+    color: rgb(126, 126, 126);
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+div.middleleft{
+    display: inline-block;
+    background-color:white; 
+    padding: 10px 10px 10px 10px;   
+}
+div.middleleft h1{
+    border-bottom: 1px dotted;
+}
+
+div.middleleft h2{
+    border-bottom: 1px dotted;
+}
+
+div.middleleft ul{
+    font-size: 12px;
+}
+div.middleleft form{
+    font-size: 12px;
+    text-align: right;
+}
+div.middleleft form select{
+    font-size: 10px;
+}
+div.middleleft form p{
+    font-size:10px;
+}
+div.middleleft form p a{
+    padding:0px 5px 0px 5px;
+    text-decoration: none;
+    font-size:8px;
+}
+div.middlebottom{
+    display: inline-block;
+    border-bottom: 1px dotted;    
+}
+div.middlebottom div.notes{
+    width:595px;
+    display: inline-block;
+    font-size:20px;   
+}
+div.middlebottom div.addnotes{
+    display: inline-block;
+    font-size:10px;   
+}
+div.middlebottom div.addnotes img{
+    width:10px;
+}
+div.middleright{
+    width:250px;
+    margin: 0px 10px 0px 10px ;
+    display: inline-block;
+    vertical-align: top;
+}
+div.middleright a{
+    padding: 0px 10px 0px 10px ;
+    color: rgb(126, 126, 126);
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;    
+}
+div.bottom{
+    display: inline-block;
+    margin:0px 0px 0px 100px ;
+}
+div.bottom ul{
+    display: inline-block;
+    font-size: 12px;
+}
+div.bottom ul li{
+    padding:0px 10px 0px 10px;
+    display: inline-block;
+}
+div.bottom ul li a{
+    text-decoration: none;
+    font-size:12px;  
+    color: rgb(126, 126, 126);     
+}
